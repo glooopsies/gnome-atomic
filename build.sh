@@ -4,7 +4,7 @@ set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
 
-ostree remote add tailscale https://pkgs.tailscale.com/stable/fedora/tailscale.rep
+curl https://pkgs.tailscale.com/stable/fedora/tailscale.repo -o /etc/yum.repos.d/tailscale.repo
 rpm-ostree install tailscale
 
 systemctl enable podman.socket
