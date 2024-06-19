@@ -8,6 +8,17 @@
         },
         "exclude": {
             "all": [
+                "firefox",
+                "gnome-calculator",
+                "gnome-calendar",
+                "gnome-extensions",
+                "gnome-shell-extension-tool",
+                "gnome-terminal",
+                "gnome-tour",
+                "gnome-tweaks",
+                "mediawriter",
+                "nvtop",
+                "yelp"
             ]
         }
     }

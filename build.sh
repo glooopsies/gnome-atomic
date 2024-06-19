@@ -10,7 +10,7 @@ curl https://pkgs.tailscale.com/stable/fedora/tailscale.repo -o /etc/yum.repos.d
 # flatpak remote-delete --force fedora-testing
 # flatpak remote-delete --force flathub
 
-# dnf remove -y cheese libreoffice-* mediawriter gnome-tour gnome-boxes gnome-calculator gnome-calendar gnome-characters gnome-classic-session gnome-clocks gnome-connections gnome-contacts gnome-font-viewer gnome-maps gnome-shell-extension-* gnome-user-docs gnome-weather gnome-text-editor totem rhythmbox loupe yelp evince simple-scan baobab
+# dnf remove -y cheese mediawriter gnome-tour gnome-boxes gnome-calculator gnome-calendar gnome-characters gnome-classic-session gnome-clocks gnome-connections gnome-contacts gnome-font-viewer gnome-maps gnome-shell-extension-* gnome-user-docs gnome-weather gnome-text-editor totem rhythmbox loupe yelp evince simple-scan baobab
 
 /tmp/packages.sh
 
