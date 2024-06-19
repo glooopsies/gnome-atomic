@@ -9,11 +9,13 @@
         "exclude": {
             "all": [
                 "firefox",
+                "firefox-langpacks",
                 "gnome-calculator",
                 "gnome-calendar",
                 "gnome-extensions",
                 "gnome-shell-extension-tool",
                 "gnome-terminal",
+                "gnome-terminal-nautilus",
                 "gnome-tour",
                 "gnome-tweaks",
                 "mediawriter",
